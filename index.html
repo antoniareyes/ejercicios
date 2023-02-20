@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicios</title>
+</head>
+<body>
+
+    <h1>Ejercicios javascript</h1>
+    <p>Apretando los siguientes botones encontrarás ejercicios númericos y de palabras que fueron logrados utilizando javascript.</p>
+    
+    <h4>Ingresa los números y te entregamos tu número de la suerte</h4>
+    <button onclick="ejercicio1()">número de la suerte</button>
+
+    <h4>Ingresa un número ye diremos si es divisible por 2, 3 y/o 5</h4>
+    <button onclick="ejercicio2()">números divisores</button>
+
+    <h4>Ingresa una palabra y te diremos si es palíndromo(una palabra que se lee igual en un sentido que en otro)</h4>
+    <button onclick="ejercicio3()">palíndromo</button>
+
+    <h4>Ingresa tu rut sin dígito verificador y lo calcularemos para ti</h4>
+    <button onclick="calcularDigito()">dígito verificador</button>
+
+    <h2 >Ejercicios jquery</h2>
+    <p>Apretando los botones a la derecha podrás cambiar estilos de algunas partes de las canciones a continuación, esto se lográ gracias a funciones jquery.</p>
+    <section>
+       
+        <div id="div-primera-cancion">
+            <h1 id="titulo-primera-cancion">Ecos</h1>
+            <p class="primera-cancion">
+                Ecos
+                Los mismos instantes
+                Ecos
+                Cubriendo mi soledad
+            </p>
+            <p class="primera-cancion">
+                Estoy moviéndome
+                Con mis propios latidos
+                Llenando vacíos
+                Todo es tan igual
+                Tan previsible
+                Tan frio
+            </p>
+            <p class="primera-cancion">
+                Ecos
+                Formas que se repiten
+                Ecos
+                Saturan mis sueños
+            </p>
+            <p class="primera-cancion">
+                Estoy moviéndome
+                Con mis propios latidos
+                Llenando vacíos
+                Todo es tan igual
+                Llenando vacíos
+                Todo es tan normal
+                Tan frio
+            </p>
+            <ul>
+                <li id="interprete-primera-cancion">Soda stereo</li>
+                <li>Argentina</li>
+                <li>1985</li>
+            </ul>
+        </div>
+        <div>
+            <h1>Love is a losing game</h1>
+            <p>
+                For you, I was a flame
+                Love is a losing game
+                Five story fire as you came
+                Love is a losing game
+                One I wished I never played
+                Oh, what a mess we made
+                And now, the final frame
+                Love is a losing game
+            </p>
+            <p>
+                Played out by the band
+                Love is a losing hand
+                More than I could stand
+                Love is a losing hand
+                Self-professed, profound
+                'Til the chips were down
+                Know you're a gambling man
+                Love is a losing hand
+            </p>
+            <p id="ultima-estrofa">
+                Though I battle blind
+                Love is a fate resigned
+                Memories mar my mind
+                Love is a fate resigned
+                Over futile odds
+                And laughed at by the gods
+                And now, the final frame
+                Love is a losing game
+            </p>
+            <ul>
+                <li>Amy Winehouse</li>
+                <li id="año-segunda-cancion">2006</li>
+                <li>Reino Unido</li>
+            </ul>
+        </div>
+        <div>
+            <button id="funcion-1">Cambia color Ecos</button>
+            <button id="funcion-2">Cambia tamaño título Ecos</button>
+            <button id="funcion-3">Cambia estilos Ecos</button>
+            <button id="funcion-4">Cambia color última estrofa Love is a losing game</button>
+            <button id="funcion-5">Cambia color Ecos y año de Love is a losing game</button>
+            <button id="funcion-extra">Reestablecer</button>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

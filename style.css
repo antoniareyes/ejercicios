@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #d2dcaa;
+    color: #023102;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover{
+    background-color: #e5e7a6;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    align-items: center;
+    border-width: 2px;
+    border-color: black;
+}
+
+section button{
+    margin-top: 10%;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+}
+
+button:last-child{
+    background:  #E110CD ;
+}
+
+h2{
+    margin-top: 5%;
+}
