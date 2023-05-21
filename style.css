@@ -4,8 +4,19 @@ body{
     align-items: center;
     flex-direction: column;
     font-family: 'Courier New', Courier, monospace;
-    background-color: #d2dcaa;
+    background-color: #ffffff;
     color: #023102;
+    width: 90%;
+    margin: 0 5% 0 5%;
+}
+
+p{
+    color: #000;
+}
+
+h3{
+    color: #000;
+    font-weight: 100;
 }
 
 button{
@@ -20,7 +31,7 @@ button:hover{
     background-color: #e5e7a6;
 }
 
-section{
+#canciones{
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
 }
@@ -32,19 +43,57 @@ div{
     align-items: center;
     border-width: 2px;
     border-color: black;
+    align-items: flex-start;
 }
 
 section button{
-    margin-top: 10%;
+    margin-top: 5%;
     padding: 10px;
     border: none;
     border-radius: 7px;
 }
 
-button:last-child{
-    background:  #E110CD ;
+#funcion-extra{
+    background-color: #e5e7a6;
+    width: 300px;
+    height: 50px;
+}
+
+#funcion-extra:hover{
+    background-color: #d1d2a3;
 }
 
 h2{
     margin-top: 5%;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px 0px 10px 0px;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+}
+
+a{
+    color: #818444;
+}
+
+.a{
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 80px 0px;
 }
